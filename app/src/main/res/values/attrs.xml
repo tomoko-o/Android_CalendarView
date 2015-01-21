@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CalendarView">
+        <attr name="TODAY_COLOR" format="color" />
+        <attr name="DEFAULT_COLOR" format="color" />
+        <attr name="SUN_COLOR" format="color" />
+        <attr name="SAT_COLOR" format="color" />
+        <attr name="TODAY_BACKGROUND_COLOR" format="color" />
+        <attr name="DEFAULT_BACKGROUND_COLOR" format="color" />
+        <attr name="FOCUSED_BACKGROUND_COLOR" format="color" />
+        <attr name="BUTTON_BACKGROUND_COLOR" format="color" />
+        <attr name="BEGINNING_DAY_OF_WEEK">
+            <enum name="SUNDAY" value="0" />
+            <enum name="MONDAY" value="1" />
+            <enum name="TUESDAY" value="2" />
+            <enum name="WEDNESDAY" value="3" />
+            <enum name="THURSDAY" value="4" />
+            <enum name="FRIDAY" value="5" />
+            <enum name="SATURDAY" value="6" />
+        </attr>
+    </declare-styleable>
+</resources>
